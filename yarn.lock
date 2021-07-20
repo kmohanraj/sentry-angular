@@ -998,6 +998,80 @@
     semver "6.3.0"
     semver-intersect "1.4.0"
 
+"@sentry/angular@^6.9.0":
+  version "6.9.0"
+  resolved "https://registry.nlark.com/@sentry/angular/download/@sentry/angular-6.9.0.tgz#6d5def2ba39588ba4d4961f5c355b2ff7a45f835"
+  integrity sha1-bV3vK6OViLpNSWH1w1Wy/3pF+DU=
+  dependencies:
+    "@sentry/browser" "6.9.0"
+    "@sentry/types" "6.9.0"
+    "@sentry/utils" "6.9.0"
+    rxjs "^6.6.0"
+    tslib "^1.9.3"
+
+"@sentry/browser@6.9.0":
+  version "6.9.0"
+  resolved "https://registry.nlark.com/@sentry/browser/download/@sentry/browser-6.9.0.tgz#b75ac1a6ff8fe60d451b14aea94d66f9dcd5570f"
+  integrity sha1-t1rBpv+P5g1FGxSuqU1m+dzVVw8=
+  dependencies:
+    "@sentry/core" "6.9.0"
+    "@sentry/types" "6.9.0"
+    "@sentry/utils" "6.9.0"
+    tslib "^1.9.3"
+
+"@sentry/core@6.9.0":
+  version "6.9.0"
+  resolved "https://registry.nlark.com/@sentry/core/download/@sentry/core-6.9.0.tgz#43b25290f3b1eb2c23f665e1c0fcbadd06d06012"
+  integrity sha1-Q7JSkPOx6ywj9mXhwPy63QbQYBI=
+  dependencies:
+    "@sentry/hub" "6.9.0"
+    "@sentry/minimal" "6.9.0"
+    "@sentry/types" "6.9.0"
+    "@sentry/utils" "6.9.0"
+    tslib "^1.9.3"
+
+"@sentry/hub@6.9.0":
+  version "6.9.0"
+  resolved "https://registry.nlark.com/@sentry/hub/download/@sentry/hub-6.9.0.tgz#21068e12769cc745825e8d122c7e81858f609708"
+  integrity sha1-IQaOEnacx0WCXo0SLH6BhY9glwg=
+  dependencies:
+    "@sentry/types" "6.9.0"
+    "@sentry/utils" "6.9.0"
+    tslib "^1.9.3"
+
+"@sentry/minimal@6.9.0":
+  version "6.9.0"
+  resolved "https://registry.nlark.com/@sentry/minimal/download/@sentry/minimal-6.9.0.tgz#e6201eb237753994be83ec33866e3fdae9a79bf3"
+  integrity sha1-5iAesjd1OZS+g+wzhm4/2umnm/M=
+  dependencies:
+    "@sentry/hub" "6.9.0"
+    "@sentry/types" "6.9.0"
+    tslib "^1.9.3"
+
+"@sentry/tracing@^6.9.0":
+  version "6.9.0"
+  resolved "https://registry.nlark.com/@sentry/tracing/download/@sentry/tracing-6.9.0.tgz#5dff993af253ee31e62c5f84ab21b008df7d0841"
+  integrity sha1-Xf+ZOvJT7jHmLF+EqyGwCN99CEE=
+  dependencies:
+    "@sentry/hub" "6.9.0"
+    "@sentry/minimal" "6.9.0"
+    "@sentry/types" "6.9.0"
+    "@sentry/utils" "6.9.0"
+    tslib "^1.9.3"
+
+"@sentry/types@6.9.0":
+  version "6.9.0"
+  resolved "https://registry.nlark.com/@sentry/types/download/@sentry/types-6.9.0.tgz#ef1a541c4240df6a7c6f5f31d7cdddd7d92c15f1"
+  integrity sha1-7xpUHEJA32p8b18x183d19ksFfE=
+
+"@sentry/utils@6.9.0":
+  version "6.9.0"
+  resolved "https://registry.nlark.com/@sentry/utils/download/@sentry/utils-6.9.0.tgz#6bf0bf290a6d37a27078b7c1331a06d8a7e313c5"
+  integrity sha1-a/C/KQptN6JweLfBMxoG2KfjE8U=
+  dependencies:
+    "@sentry/types" "6.9.0"
+    tslib "^1.9.3"
+
 "@types/glob@^7.1.1":
   version "7.1.4"
   resolved "https://registry.nlark.com/@types/glob/download/@types/glob-7.1.4.tgz#ea59e21d2ee5c517914cb4bc8e4153b99e566672"
@@ -6583,7 +6657,7 @@ rxjs@6.4.0, rxjs@~6.4.0:
   dependencies:
     tslib "^1.9.0"
 
-rxjs@^6.4.0:
+rxjs@^6.4.0, rxjs@^6.6.0:
   version "6.6.7"
   resolved "https://registry.nlark.com/rxjs/download/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
   integrity sha1-kKwBisq/SRv2UEQjXVhjxNq4BMk=
@@ -7587,7 +7661,7 @@ tslib@1.10.0:
   resolved "https://registry.nlark.com/tslib/download/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha1-w8GflZc/sKYpc/sJ2Q2WHuQ+XIo=
 
-tslib@^1.10.0, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.14.1"
   resolved "https://registry.nlark.com/tslib/download/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
