@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  release: 'This Will Be Replaced With A Value In Environment.prod.ts'
 };
 
 /*

@@ -17,4 +17,27 @@ export class AppComponent {
       curr.color = 'black'
     }, 1500);
   }
+
+  malformed() {
+    decodeURIComponent('%');
+  }
+
+  // ERRORS
+  notAFunctionError() {
+    var someArray = [{ func: function () {}}];
+    someArray[1].func();
+  }
+
+  uriError() {
+    decodeURIComponent('%');
+  }
+
+  syntaxError() {
+    eval('foo bar');
+  }
+
+  rangeError() {
+    throw new RangeError('Parameter must be between 1 and 100');
+  }
+
 }
